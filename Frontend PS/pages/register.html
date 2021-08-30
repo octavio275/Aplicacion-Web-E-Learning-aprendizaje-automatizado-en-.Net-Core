@@ -1,0 +1,140 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registro Alumno </title>
+    <script src="/js/login/jquery-3.4.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="/css/pages/index.css">
+    <link rel="stylesheet" href="/css/pages/login.css">
+    <link rel="stylesheet" href="/css/sweetAlert2/sweetalert2.min.css">
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <div class="container-fluid">
+        <nav class="navbar row navbar-expand-lg navbar-light" id="nav_bar">
+
+
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                <div class="barra">
+                    <div class="nav">
+                        <!--<a href="index.html">E-Learning.com</a>-->
+                        <a class="ins" href="Inscripcion.html">Aprendiendo.com</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+
+            </div>
+
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12">
+
+            </div>
+
+        </nav>
+    </div>
+
+
+    <section class="section-grid">
+        <div class="container-fluid">
+            <div class="row" id="container-imagen">
+
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12" id="main">
+                    <div style="margin-top: 4%;">
+                        <img src="https://capacitacionesempresariales.org/wp-content/uploads/2018/10/e-learning.jpg"
+                            class="img-fluid" alt="Responsive image">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!--DESDE ACA-->
+
+        <!-- Bootstrap-->
+        <!-- Cuadro en el centro-->
+        <div class="modal-dialog text-center" id="area-login">
+            <!-- Columna dentro de la caja centrada que contiene el formulario -->
+            <div class="contenedor-login" id="contenedor">
+                <div class="modal-content" id="form">
+                    <!-- Columna de la imagen, desplazarla con distintos números-->
+                    <div class="col-13 user-img">
+                        <!-- Atavar de la imagen-->
+                        <img src="/imagenes/avatar.jpeg" />
+                    </div>
+                    <div class="formulario" method="get">
+                        <!-- Formulario 1-->
+                        <div class="col-12">
+                            <!-- Nombre -->
+                            <div class="form-group" id="nombre-div">
+                                <input type="text" class="form-control" id="nombre" placeholder="Nombre" required />
+                            </div>
+                            <!-- Apellido -->
+                            <div class="form-group" id="apellido-div">
+                                <input type="text" class="form-control" id="apellido" placeholder="Apellido" required />
+                            </div>
+                            <!-- DNI -->
+                            <div class="form-group" id="dni-div">
+                                <input type="text" class="form-control" id="dni" placeholder="DNI"
+                                    required />
+                            </div>
+                            <!-- Correo electrónico -->
+                            <div class="form-group" id="email-div">
+                                <input type="text" class="form-control" id="correo" placeholder="Correo electrónico"
+                                    required />
+                            </div>
+                            <!-- Contraseña -->
+                            <div class="form-group" id="contrasenia-div">
+                                <input type="password" class="form-control" id="contraseña" placeholder="Contraseña"
+                                    required />
+                            </div>
+                            
+                            <!-- Botón-->
+                            <button type="submit" class="btn btn-info" id="registrar"><i class="fas fa-pencil-alt"></i>
+                                Registrarme</button>
+                            <a href="./login.html" class="btn btn-light" id="boton-link"><i
+                                    class="fas fa-sign-in-alt"></i> Iniciar sesión</a>
+                            <!--<button href="./index.html" type="button"  class="btn btn-light"><i class="fas fa-sign-in-alt"></i> Iniciar sesión</button>-->
+                        
+                            <div class="mensaje" id="mensaje">
+
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--HASTA ACA-->
+
+
+
+
+
+    </section>
+
+
+    <script src="/js/login/register.js"></script>
+    <script src="/js/login/validaciones.js"></script>
+    <script src="/js/jQuery/jquery-3.5.1.min.js"></script>
+    <script src="/js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/js/sweetalert2/sweetalert2.min.js"></script>
+
+</body>
+
+</html>

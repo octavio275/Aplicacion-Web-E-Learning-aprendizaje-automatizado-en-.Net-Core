@@ -1,0 +1,453 @@
+[
+    {
+      "cursoId": 1,
+      "nombre": "Algoritmos y programacion.",
+      "descripcion": " Introducir a los estudiantes al paradigma de la programacion orientada a objetos para que puedan utilizar dicho paradigma en la realizacion de programas. Los estudiantesrecibiran una introduccion a los conceptos de TAD, recursion, manejos de excepciones y estructuras de datos compuestas.",
+      "cantidad": 40,
+      "profesorId": 1,
+      "categoriaId": 1,
+      "clasesNavegacion": [
+        {
+          "descripcion": "Introduccion a la programacion orientada a objetos",
+          "tema": "La programación orientada a objetos es una evolución de la programación procedural basada en funciones. La POO nos permite agrupar secciones de código con funcionalidades comunes. Una de las principales desventajas de la programación procedural basada en funciones es su construcción, cuando una aplicación bajo este tipo de programación crece, la modificación del código se hace muy trabajosa y difícil debido a que el cambio de una sola línea en una función, puede acarrear la modificación de muchas otras líneas de código pertenecientes a otras funciones que estén relacionadas. Con la programación orientada a objetos se pretende agrupar el código encapsulándolo y haciéndolo independiente, de manera que una modificación debida al crecimiento de la aplicación solo afecte a unas pocas líneas.",
+          "cursoId": 1,
+          "video": {
+            "descripcion": "Video de introduccion a la POO",
+            "link": "https://www.youtube.com/embed/iliKayKaGtc"
+          },
+          "foro": {
+            "foroId": 1,
+            "texto": "Foro de consulta, clase POO."
+          },
+          "cuestionario": {
+            "descripcion": "Cuestionario de POO",
+            "preguntas": [
+              {
+                "descripcion": "¿Que es la Encapsulación?",
+                "respuestas": [
+                  {
+                    "descripcion": "Es la capacidad que tienen los objetos de comportarse de múltiples formas recurriendo a la herencia.",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "Es la forma de proteger u ocultar las propiedades de un objetos, estableciendo los permisos y niveles de visibilidad.",
+                    "flag": true
+                  },
+                  {
+                    "descripcion": "Es un evento que ocurre durante la ejecucion del programa, interrumpiendo el flujo normal.",
+                    "flag": false
+                  }
+                ]
+              },
+              {
+                "descripcion": "¿Que son las Interfaces?",
+                "respuestas": [
+                  {
+                    "descripcion": "Las interfaces definen lo que una clase que la implemente debe hacer.",
+                    "flag": true
+                  },
+                  {
+                    "descripcion": "Es la capacidad que tienen los objetos de comportarse de múltiples formas recurriendo a la herencia.",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "Es la base de la reutilización del código, obteniendo la información de sus superclases.",
+                    "flag": false
+                  }
+                ]
+              },
+              {
+                "descripcion": "¿Que es Sobrecarga?",
+                "respuestas": [
+                  {
+                    "descripcion": "Consiste en tener dos o más métodos con distinto nombre pero los mismos parámetros.",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "Consiste en tener dos o más métodos con el mismo nombre pero diferentes parámetros.",
+                    "flag": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "descripcion": "Manejo de excepciones.",
+          "tema": "Las características de control de excepciones del lenguaje C# le ayudan a afrontar cualquier situación inesperada o excepcional que se produce cuando se ejecuta un programa. El control de excepciones usa las palabras clave try, catch y finally para intentar realizar acciones que pueden no completarse correctamente, para controlar errores cuando decide que es razonable hacerlo y para limpiar recursos más adelante.",
+          "cursoId": 1,
+          "video": {
+            "descripcion": "Video de manejo de excepciones",
+            "link": "https://www.youtube.com/embed/sNTowPB4YHI"
+          },
+          "foro": {
+            "foroId": 2,
+            "texto": "Foro de consulta, clase manejo de excepciones."
+          },
+          "cuestionario": {
+            "descripcion": "Cuestionario de Manejo de excepciones",
+            "preguntas": [
+              {
+                "descripcion": "¿Qué es una excepción?",
+                "respuestas": [
+                  {
+                    "descripcion": "Es un evento que ocurre durante la ejecución de un programa y que provoca que los ciclos no puedan terminarse.",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "Es un evento que ocurre durante la ejecución de un programa y que interrumpe el flujo normal de operación.",
+                    "flag": true
+                  }
+                ]
+              },
+              {
+                "descripcion": "Un programador, ¿puede disparar sus propias excepciones?",
+                "respuestas": [
+                  {
+                    "descripcion": "No.",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "Sí.",
+                    "flag": true
+                  }
+                ]
+              },
+              {
+                "descripcion": "¿Qué se define dentro del finally?",
+                "respuestas": [
+                  {
+                    "descripcion": "El código que se ejecuta cuando haya excepciones.",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "El código que se ejecutará haya o no excepciones.",
+                    "flag": true
+                  },
+                  {
+                    "descripcion": "El código que captura y maneja el código que se lance la excepción.",
+                    "flag": false
+                  }
+                ]
+              },
+              {
+                "descripcion": "¿Qué se puede hacer con la sentencia trow?",
+                "respuestas": [
+                  {
+                    "descripcion": "Se puede identificar un error al cual posteriormente aplicar una excepción.",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "Se puede utilizar para disparar una excepción.",
+                    "flag": true
+                  },
+                  {
+                    "descripcion": "Se puede utilizar para señalar un código y no lanzar una excepción si este tiene problemas.",
+                    "flag": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "descripcion": "Estructuras de datos: Grafos.",
+          "tema": "En matemáticas y ciencias de la computación, un grafo es un conjunto de objetos llamados vértices o nodos unidos por enlaces llamados aristas o arcos, que permiten representar relaciones binarias entre elementos de un conjunto. Son objeto de estudio de la teoría de grafos. Típicamente, un grafo se representa gráficamente como un conjunto de puntos(vértices o nodos) unidos por líneas(aristas).",
+          "cursoId": 1,
+          "video": {
+            "descripcion": "Video estructuras de datos grafos",
+            "link": "https://www.youtube.com/embed/hoE38ao9m7c"
+          },
+          "foro": {
+            "foroId":3,
+            "texto": "Foro de consulta, clase grafos."
+          },
+          "cuestionario": {
+            "descripcion": "Cuestionario de Grafos",
+            "preguntas": [
+              {
+                "descripcion": "Según la definición de Grafos, indice cual opción define mejor el concepto de trayectoria de un vértice v0 a vn.",
+                "respuestas": [
+                  {
+                    "descripcion": "Un camino consecutivo de aristas consecutivas desde v0 hasta vn.",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "Es un camino de nodos alternantes desde v0 hasta vn.",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "Es una sucesión de longitud n, alternante de n+1 vértices y n aristas que comienza en v0 y termina en vn.",
+                    "flag": true
+                  },
+                  {
+                    "descripcion": "Es un conjunto de n-1 nodos alternantes y consecutivos desde v0 hasta vn.",
+                    "flag": false
+                  }
+                ]
+              },
+              {
+                "descripcion": "Indique la definición correcta de Grafo.",
+                "respuestas": [
+                  {
+                    "descripcion": "Un conjunto de vértices y aristas, tal que cada arista está asociada a un par.",
+                    "flag": true
+                  },
+                  {
+                    "descripcion": "Un diagrama compuesto de nodos y conexiones.",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "Un gráfico matemático que se emplea para modelar problemas de la vida real.",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "Múltiples nodos denominados vértices y caminos denominados marcos.",
+                    "flag": false
+                  }
+                ]
+              },
+              {
+                "descripcion": "¿Cuál es el algoritmo que resuelve el problema del camino mínimo?",
+                "respuestas": [
+                  {
+                    "descripcion": "El algoritmo de VanVourer.",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "El algoritmo de Dijkstra.",
+                    "flag": true
+                  },
+                  {
+                    "descripcion": "El algoritmo de Gauss.",
+                    "flag": false
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "cursoId": 2,
+      "nombre": "Ingles aplicado",
+      "descripcion": "Que los alumnos puedan familiarizarse con los patrones retóricos principales de la lengua inglesa en los usos y contextos de la comunicación académica,teniendo en cuenta el objetivo / complejidad / especificidad de cada situación comunicativa y la demanda de los interlocutores.",
+      "cantidad": 40,
+      "profesorId": 2,
+      "categoriaId": 2,
+      "clasesNavegacion": [
+        {
+          "descripcion": "El verbo to be",
+          "tema": "En inglés, así como en cualquier idioma, los verbos cumplen una función muy importante dentro del proceso de comunicación: éstos son los encargados de expresar las acciones. Hay un verbo en inglés que es esencial para comunicarse, y por supuesto el más usado de todos los que existen. Éste es el verbo to be.",
+          "cursoId": 2,
+          "video": {
+            "descripcion": "Video introduccion al verbo to be",
+            "link": "https://www.youtube.com/embed/dFJvNYdKGrA"
+          },
+          "foro": {
+            "foroId":4,
+            "texto": "Foro de consulta, clase verbo to be."
+          },
+          "cuestionario": {
+            "descripcion": "Cuestionario de verbo to be",
+            "preguntas": [
+              {
+                "descripcion": "Complete: ___________ in the office?",
+                "respuestas": [
+                  {
+                    "descripcion": "When is",
+                    "flag": true
+                  },
+                  {
+                    "descripcion": "Who is",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "Where is",
+                    "flag": false
+                  }
+                ]
+              },
+              {
+                "descripcion": "Complete: _______ the books on the shelf?",
+                "respuestas": [
+                  {
+                    "descripcion": "Isn't",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "Are",
+                    "flag": true
+                  },
+                  {
+                    "descripcion": "Was",
+                    "flag": false
+                  }
+                ]
+              },
+              {
+                "descripcion": "Complete: I ____ not ready.",
+                "respuestas": [
+                  {
+                    "descripcion": "am",
+                    "flag": true
+                  },
+                  {
+                    "descripcion": "is not",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "where",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "are",
+                    "flag": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "descripcion": "El present simple",
+          "tema": " En inglés, el presente simple también denominado presente indefinido  es el tiempo verbal presente (de aspecto no perfecto). Es uno de los tiempos verbales del presente utilizados en inglés, además del presente progresivo, el presente perfecto y el presente perfecto progresivo.Se utiliza para hablar de cosas, hábitos diarios o actividades que suelen hacerse todos los días y siempre son verdad.",
+          "cursoId": 2,
+          "video": {
+            "descripcion": "El present simple",
+            "link": "https://www.youtube.com/embed/m0kTGL6Flzg"
+          },
+          "foro": {
+            "foroId":5,
+            "texto": "Foro de consulta, clase present simple."
+          },
+          "cuestionario": {
+            "descripcion": "Cuestionario de Presente Simple",
+            "preguntas": [
+              {
+                "descripcion": "Complete: She ______ (wash) her car every week? ",
+                "respuestas": [
+                  {
+                    "descripcion": "washies",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "washes",
+                    "flag": true
+                  },
+                  {
+                    "descripcion": "washs",
+                    "flag": false
+                  }
+                ]
+              },
+              {
+                "descripcion": "Complete: Paul _______ (sleep) seven hours a day.",
+                "respuestas": [
+                  {
+                    "descripcion": "sleep",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "sleeps",
+                    "flag": true
+                  },
+                  {
+                    "descripcion": "sleepes",
+                    "flag": false
+                  }
+                ]
+              },
+              {
+                "descripcion": "Complete: Who _____ (be) your favourite football player? ",
+                "respuestas": [
+                  {
+                    "descripcion": "am",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "are",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "is",
+                    "flag": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "descripcion": "El present continuous",
+          "tema": "El presente continuo o presente progresivo, es uno de los tiempos verbales del presente usados en el inglés, los otros son el presente simple y presente perfecto. Todos ellos pueden ser usados tanto en el modo indicativo como en el subjuntivo.",
+          "cursoId": 2,
+          "video": {
+            "descripcion": "El present continuous",
+            "link": "https://www.youtube.com/embed/H7uJ2Pqu21U"
+          },
+          "foro": {
+            "foroId":6,
+            "texto": "Foro de consulta, clase present continuous."
+          },
+          "cuestionario": {
+            "descripcion": "Completa las sentencias usando Presente Continuo",
+            "preguntas": [
+              {
+                "descripcion": "Complete: She _________ (leave) tomorrow morning.",
+                "respuestas": [
+                  {
+                    "descripcion": "leaving",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "is leaving",
+                    "flag": true
+                  },
+                  {
+                    "descripcion": "leaved",
+                    "flag": false
+                  }
+                ]
+              },
+              {
+                "descripcion": "Complete: You _______ (make) a great effort.",
+                "respuestas": [
+                  {
+                    "descripcion": "are making",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "is making",
+                    "flag": true
+                  },
+                  {
+                    "descripcion": "is make",
+                    "flag": false
+                  }
+                ]
+              },
+              {
+                "descripcion": "Complete: I _______ (watch) TV right now.",
+                "respuestas": [
+                  {
+                    "descripcion": "do watching",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "are watching",
+                    "flag": false
+                  },
+                  {
+                    "descripcion": "am watching",
+                    "flag": true
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,277 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis cursos</title>
+    <!--<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/pages/curso.css">
+    <link rel="stylesheet" href="/css/pages/footer.css">
+    <script src="https://kit.fontawesome.com/3dc5764727.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <div class="d-flex flex-column min-vh-100">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light row" id="nav_bar">
+                <div class="barra col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                    <div class="nav">
+                        <a class="ins" href="Inscripcion.html">Aprendiendo.com</a>
+                    </div>
+
+                </div>
+
+                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12">
+                    <!--<ul class="nav">
+                    <li class="secciones nav-item">
+                        <a class="nav-link text-dark" href="#">Dar baja</a>
+                    </li>
+                    <li class="secciones nav-item">
+                        <a class="nav-link text-dark" href="#">Cursos</a>
+                    </li>
+                </ul>-->
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto" id="curso">
+
+
+                            <div class="modal fade" id="modalDarBaja" tabindex="-1" aria-labelledby="modalDarBajaLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalReservarLabel">Dar de Baja</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body" id="modalBajaBody">
+
+                                            <p style="margin-top: 3%;"> Se dará de baja del siguiente curso: </p>
+
+                                            <select class="form-control" id="lista"
+                                                style="margin-top: 4%; margin-bottom: 3%;">
+                                                <!--<option> Selecciona un curso</option>-->
+                                            </select>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-warning"
+                                                data-dismiss="modal">Cancelar</button>
+                                            <button type="button" id="confirmarBaja"
+                                                class="btn btn-primary">Confirmar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--<li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Cursos</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="cursos">
+                                
+                            </div>
+                        </li>-->
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+
+
+                            <div class="btn-group">
+                                <button type="button" id="usuario" class="btn dropdown-toggle" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <button class="dropdown-item" id="drp-nombre" type="button" disabled>
+
+                                    </button>
+                                    <button class="dropdown-item" type="button" id="cerrar_sesion">Salir<i
+                                            class="fas fa-sign-out-alt" style="margin-left: 10%;"></i></button>
+                                </div>
+                            </div>
+
+
+
+
+
+                        </ul>
+                    </div>
+
+
+                </div>
+            </nav>
+        </div>
+        <section class="flex-fill">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12" id="body">
+
+
+                        <div class="accordion mt-5" id="accordionExample">
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12" id="main">
+
+                        <div id="seccion" style="margin-top: 3%; background-color: #48D1CC;">
+                            <ul class="nav" id="cambiante">
+                                <li class="secciones nav-item">
+                                    <a class="nav-link text-dark" href="cuestionario.html"> <i class="far fa-edit"></i>
+                                        Actividades</a>
+                                </li>
+                                <li class="secciones nav-item">
+                                    <a class="nav-link text-dark" href="Foro.html"> <i class="far fa-comment-dots"></i>
+                                        Ir a foro</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="contenidoClase bg-light">
+
+                            <div class="centro" style="margin: 4%;">
+
+                                <div class="texto" style="border-bottom-style: double; border-width: 1px;">
+                                    <h4 id="tituloClase">Bienvenido... a tus cursos en linea</h4>
+                                </div>
+
+                                <div class="texto">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPs3URGs0KQ"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+
+                                <div class="texto">
+
+                                    <p>1- En la izquierda de la pagina podras encontrar tus cursos activos junto con sus
+                                        clases para que puedas comenzar a interactuar</p>
+
+                                    <p> 2- En el apartado de actividades podras encontrar la tarea relacionada a tu
+                                        clase actual </p>
+
+                                    <p>
+                                        3- En el foro correspondiente a la clase actual podras consultar a tus
+                                        compañeros y profesores sobre dudas de la clase o simplemente interactuar.
+                                    </p>
+
+                                    <p>
+                                        Por ultimo te dejamos un video introductorio sobre que es E-learning.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                        <a href="https://es-la.facebook.com/udemyenespanol/">
+                            <i class="ifooter fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/channel/UCzw4hbQIePVtyJQzE_F8QDg">
+                            <i class="ifooter fab fa-youtube"></i></a>
+                        <a href="https://twitter.com/udemy_es">
+                            <i class="ifooter fab fa-twitter"></i></a>
+                    </div>
+
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                        <p class="copyright">
+                            E-Learning. Integrantes: Bonserio Julia, Jorge Octavio, Terceros Quiroz Daniel, Zegarra
+                            Fernando.
+                            <br>
+                            Derechos reservados 2020. Universidad Nacional Arturo Jauretche
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!--<div class="container my-1 text-center">
+        <h1>Comenzar Clase1</h1>
+
+        <button class="boton" onclick="traer()">Ver</button>
+        <div class="mt-5" id="contenido">
+            
+        </div>
+    </div>-->
+
+    <!--<script>
+        var contenido = document.querySelector('#contenido')
+        function traer() {
+            fetch('https://www.udemy.com/course/scrum-practico/')
+            .then(res => res.json())
+            .then(data => {
+                console.log(data.results['0'])
+                contenido.innerHTML = `
+                <img src= width="100px" class="img-fluid rounded-circle"> 
+                <p>Nombre: ${data.results['0'].name.last}</p>
+                `
+            })
+        } 
+    </script>-->
+
+    <!--<div id="borrar">
+        <section class="comentarios seccion" id="seccionComentarios">
+            <div class="container">
+                <h2>
+                    <div id="div1" class="fa "> </div>
+
+                    Comentarios
+                </h2>
+
+                <hr>
+                <div class="row">
+                    <div class="col-sm-1">
+                        <div class="media-left">
+                            <img src="images/fotoperfil.jpg" class="img-rounded" alt="Cinque Terre" class="media-object" style="width:60px">
+
+                        </div>
+                    </div>
+                    <div class="col-sm-11">
+                        <div class="panel panel-default">
+                            <div class="">
+                                <textarea name="text" class="form-control" placeholder="Agregar un  Comentario.." id="comentario"></textarea>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary pull-right " onclick="comentar();">Comentar</button>
+                    </div>
+
+                </div>
+                <hr>
+            </div>
+            <article class="container seccion" id="secciones">
+            </article>
+
+            <div class="container">
+                <button class="btn btn-link btn-VerMas" onclick="VerMas();">Ver más comentarios </button>
+            </div>
+        </section>
+    </div>-->
+
+    <script src="/js/jQuery/jquery-3.5.1.min.js"></script>
+    <script src="/js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/js/pages/usuario.js"></script>
+    <script src="/js/pages/curso.js"></script>
+    <script src="/js/pages/darBaja.js"></script>
+
+</body>
+
+</html>

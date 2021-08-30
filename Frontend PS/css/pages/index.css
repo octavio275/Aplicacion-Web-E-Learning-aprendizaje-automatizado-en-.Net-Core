@@ -1,0 +1,29 @@
+body
+{
+    background-color: #d3dfd4;
+}
+.fab
+{
+    margin-right: 3%;
+}
+.navbar
+{
+    background-color: #48D1CC;
+    height: 10%;
+}
+
+.ins
+{
+    --fuentePrincipal: 'Staatliches', cursive;
+    font-family: var(--fuentePrincipal);
+    font-size: 2rem;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 3rem;
+    /*font: 150% sans-serif;*/
+}
+.ins:hover
+{
+    color: var(--secundario)
+}

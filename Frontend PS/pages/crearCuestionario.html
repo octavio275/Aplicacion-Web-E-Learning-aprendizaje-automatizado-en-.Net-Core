@@ -1,0 +1,166 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear cuestionario</title>
+
+
+
+    <script src="/js/jQuery/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="/css/pages/footer.css">
+
+    <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/pages/crearCuestionario.css">
+
+    <link rel="stylesheet" href="/css/sweetAlert2/sweetalert2.min.css">
+
+    <script src="https://kit.fontawesome.com/3dc5764727.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <header></header>
+
+    <div class="d-flex flex-column min-vh-100">
+
+        <div class="contenedor flex-fill">
+            <div class="contenedor-cuestionario">
+                <div class="cuestionario">
+                    <div class="cuestionario-descripcion">
+                        <label for="cuestionario" required>Descripción del Cuestionario:</label>
+                        <input type="text" placeholder="Descripcion" class="input-cuestionario" id="input-cuestionario"
+                            required />
+                    </div>
+                </div>
+
+
+                <div class="conteiner-preg">
+                    <div class="conteiner-bloques">
+
+                        <div class="bloque-pregunta" id="bloque-pregunta1">
+                            <div class="pregunta">
+                                <label for="pregunta" required>Pregunta 1:</label>
+                            </div>
+                            <div class="input-pregunta">
+                                <input type="text" placeholder="pregunta" class="input-preg" id="input-pregunta1"
+                                    required />
+                            </div>
+                            <div class="detalles">
+                                <div class="calificacion">
+                                    <label for="calificacion" required>Calificacion</label>
+                                    <input type="number" class="input-calificacion" id="input-calificacion1" required />
+                                </div>
+
+                            </div>
+                            <div class="respuesta">
+                                <label for="respuesta">Respuestas:</label>
+                            </div>
+                            <div class="conjunto-respuestas1">
+                                <div class="respuestas" id="respuesta1-p1">
+                                    <div class="radio-button"><input type="radio" name="estado1" id="radio1-1" value="1"
+                                            checked></div>
+                                    <label for="respuesta" class="num-resp" required>1.</label>
+                                    <input type="text" class="input-resp" placeholder="respuesta" id="input-respuesta11"
+                                        required />
+                                </div>
+                                <div class="respuestas" id="respuesta2-p1">
+                                    <div class="radio-button"><input type="radio" name="estado1" id="radio1-2"
+                                            value="2"></div>
+                                    <label for="respuesta" class="num-resp" required>2.</label>
+                                    <input type="text" class="input-resp" placeholder="respuesta" id="input-respuesta12"
+                                        required />
+                                </div>
+                            </div>
+                            <div class="botones">
+                                <div class="boton-add">
+                                    <button type="submit" class="mas-respuestas btn btn-primary" id="mas-respuestas1"
+                                        value=1>
+                                        Agregar Respuesta </button>
+                                </div>
+                                <div class="boton-del">
+                                    <button type="submit" class="menos-respuestas btn btn-danger" id="menos-respuestas1"
+                                        value=1 disabled>
+                                        - </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <!--
+        <div class="boton">
+            <button type="submit" class="btn btn-primary" id="mas-preguntas">
+                Agregar Pregunta </button>
+        </div>-->
+                <div class="conteiner-botones">
+                    <div class="botones-preg">
+                        <div class="boton-add">
+                            <button type="submit" class="btn btn-success" id="mas-preguntas">
+                                Agregar Pregunta </button>
+                        </div>
+                        <div class="boton-del">
+                            <button type="submit" class="menos-preguntas btn btn-danger" id="menos-preguntas" disabled>
+                                - </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor-envio">
+                <div class="boton">
+                    <button type="submit" class="btn btn-info" id="enviar-cuestionario">
+                        Terminar Cuestionario </button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                        <a href="https://es-la.facebook.com/udemyenespanol/">
+                            <i class="ifooter fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/channel/UCzw4hbQIePVtyJQzE_F8QDg">
+                            <i class="ifooter fab fa-youtube"></i></a>
+                        <a href="https://twitter.com/udemy_es">
+                            <i class="ifooter fab fa-twitter"></i></a>
+                    </div>
+
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                        <p class="copyright">
+                            E-Learning. Integrantes: Bonserio Julia, Jorge Octavio, Terceros Quiroz Daniel, Zegarra
+                            Fernando.
+                            <br>
+                            Derechos reservados 2020. Universidad Nacional Arturo Jauretche
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+    </div>
+    <script src="/js/jQuery/jquery-3.5.1.min.js"></script>
+    <script src="/js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/js/sweetalert2/sweetalert2.min.js"></script>
+    <script type="module" src="/js/crearCuestionario/crearCuestionario.js"></script>
+
+    <script src="/js/crearCuestionario/funcionesCuestionario.js"></script>
+
+</body>
+
+</html>

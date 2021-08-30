@@ -1,0 +1,21 @@
+.ifooter
+{
+    font-size:30px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    color: #1c2222;
+} 
+
+.ifooter:hover
+{
+    color:#0b6af8;
+}
+.footer {
+    background-color: #48D1CC;
+    padding: 0.5rem;
+  }
+.copyright
+{
+    margin-top: 1rem;
+    font: 100% sans-serif;
+}

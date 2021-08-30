@@ -1,0 +1,199 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Curso</title>
+    <!--<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="/css/pages/curso.css">
+    <link rel="stylesheet" href="/css/pages/footer.css">
+    <link rel="stylesheet" href="/css/sweetAlert2/sweetalert2.min.css">
+    <script src="https://kit.fontawesome.com/3dc5764727.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <body>
+        <header>
+
+        </header>
+        <div class="d-flex flex-column min-vh-100">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand navbar-light row" id="nav_bar">
+                    <div class="barra col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                        <div class="nav">
+                            <a class="ins" href="Inscripcion.html">Aprendiendo.com</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12">
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Inscripcion.html"> Más Cursos
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+
+
+                                <div class="btn-group">
+                                    <button type="button" id="usuario" class="btn dropdown-toggle"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <button class="dropdown-item" id="drp-nombre" type="button" disabled>
+
+                                        </button>
+                                        <button class="dropdown-item" type="button" id="cerrar_sesion">Salir<i
+                                                class="fas fa-sign-out-alt" style="margin-left: 10%;"></i></button>
+                                    </div>
+                                </div>
+
+
+
+
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </nav>
+            </div>
+
+            <section class="flex-fill">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2" id="body">
+                        </div>
+
+                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-9" id="main">
+
+                            <div id="seccion" style="margin-top: 3%; background-color: #48D1CC;">
+                                <ul class="nav">
+                                    <li class="secciones nav-item">
+                                        <a class="nav-link text-dark" href="Curso1.html"><i class="fa fa-undo-alt"></i>
+                                            Salir sin guardar cambios</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="container-fluid formulario-curso" style="margin-top: 1.5rem;">
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                        <div class="wrapper wrapper-content animated fadeInRight">
+                                            <div class="ibox-content m-b-sm border-bottom">
+                                                <div class="p-xs"></div>
+                                                <div class="pull-left m-r-md">
+                                                    <i class="fa fa-archive text-navy mid-icon"></i>
+                                                </div>
+                                                <h2>Crear Curso</h2>
+                                                <span>Complete todos los campos y presione "Enviar" para registrar el
+                                                    nuevo curso.</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="ibox-content forum-container">
+                                            <div class="formulario-curso-completar">
+                                                <form role="form" id="form-curso-id">
+                                                    <div class="card-body">
+                                                        <div class="form-group">
+                                                            <label for="form-input-nombre">Nombre del Curso</label>
+                                                            <input type="text" class="form-control" id="inputNombreC"
+                                                                placeholder="Ingrese nombre">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="form-input-descripcion">Descripcion</label>
+                                                            <input type="text" class="form-control"
+                                                                id="inputDescripcion" placeholder="Ingrese descripcion">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="form-input-cantidad">Cantidad de estudiantes
+                                                            </label>
+                                                            <input type="text" class="form-control" id="inputCantidad"
+                                                                placeholder="Ingrese la cantidad">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="form-input-imagen">Imagen </label>
+                                                            <input type="url" class="form-control" id="inputImagen"
+                                                                placeholder="Ingrese la URL de la imagen">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Seleccione la categoria del curso</label>
+                                                            <select class="form-control " id="opt-categoriaId">
+                                                                <option value="1">Programacion</option>
+                                                                <option value="2">Idiomas</option>
+                                                                <option value="3">Ciencias exactas</option>
+                                                            </select>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="card-footer-btn">
+
+                                                        <button type="button" class="btn btn-info"
+                                                            style="margin-left: 40%;" id="EnviarCurso"> Enviar </button>
+                                                    </div>
+                                                </form>
+
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+            </section>
+
+            <footer class="footer" id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                            <a href="https://es-la.facebook.com/udemyenespanol/">
+                                <i class="ifooter fab fa-facebook-f"></i></a>
+                            <a href="https://www.youtube.com/channel/UCzw4hbQIePVtyJQzE_F8QDg">
+                                <i class="ifooter fab fa-youtube"></i></a>
+                            <a href="https://twitter.com/udemy_es">
+                                <i class="ifooter fab fa-twitter"></i></a>
+                        </div>
+
+                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                            <p class="copyright">
+                                E-Learning. Integrantes: Bonserio Julia, Jorge Octavio, Terceros Quiroz
+                                Daniel, Zegarra
+                                Fernando.
+                                <br>
+                                Derechos reservados 2020. Universidad Nacional Arturo Jauretche
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+
+        <script src="/js/jQuery/jquery-3.5.1.min.js"></script>
+        <script src="/js/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+        <script src="/js/pages/usuario.js"></script>
+        <script src="/js/pages/crearCurso.js"></script>
+        <script src="/js/sweetalert2/sweetalert2.min.js"></script>
+
+
+    </body>
+
+</html>

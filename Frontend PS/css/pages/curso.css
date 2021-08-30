@@ -1,0 +1,262 @@
+#class
+{
+    margin-top: 10%;
+    background-color: #48D1CC;
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+}
+.secciones
+{
+    margin-right: 1%;
+}
+.embed-responsive
+{
+    width: auto;
+    height: auto;
+}
+body
+{
+    background-color: #deebe7;
+}
+.fab
+{
+    margin-right: 3%;
+}
+
+.navbar
+{
+    background-color: #48D1CC;
+    height: 10%;
+}
+.nav-link
+{
+    font-size: 1.1rem;
+}
+.nav-link:hover
+{
+    background-color:  rgba(36, 150, 158, 0.685);
+    border-radius: 1.3rem;
+}
+.ins
+{
+    --fuentePrincipal: 'Staatliches', cursive;
+    font-family: var(--fuentePrincipal);
+    font-size: 2rem;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 3rem;
+    /*font: 150% sans-serif;*/
+}
+.ins:hover
+{
+    color: var(--secundario)
+}
+.texto
+{
+    padding:2rem;
+}
+.texto-principal
+{
+    padding: 3rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.texto-modal
+{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #085375;
+}
+#seccion
+{
+    padding: 0.7rem;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+}
+
+#clases
+{
+    background-color: #ffffff;
+    height: 30%;
+    overflow: hidden;
+}
+
+.btn-primary
+{
+    background-color: #13a6c0;
+    border-color: #085375;
+}
+.btn-primary:hover {
+    background-color: #0c788b;
+    border-color: #085375;
+}
+
+.btn-warning
+{
+    color:white;
+    background-color: #ddb034;
+    border-color: #b1a53a;
+}
+.btn-warning:hover {
+    background-color: #afa43c;
+    border-color: #a7970f;
+}
+
+.card-footer-btn {
+    padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.hidden
+{
+    display: none;
+}
+
+.fas
+{
+    margin-right: 0.5rem;
+}
+.far
+{
+    margin-right: 0.5rem;
+}
+.fa
+{
+    margin-right: 0.5rem;
+}
+
+/* FORO */
+.container-foro{
+    margin-top:20px;
+    background:#eee;
+    margin-bottom: 3rem;
+    }
+    
+    .white-bg {
+        background-color: #ffffff;
+    }
+    .page-heading {
+        border-top: 0;
+        padding: 0 10px 20px 10px;
+    }
+    .mid-icon {
+      font-size: 66px;
+    }
+    .forum-item {
+      margin: 10px 0;
+      padding: 10px 0 20px;
+      border-bottom: 1px solid #f1f1f1;
+    }
+    .forum-container,
+    .forum-post-container {
+      padding: 30px !important;
+    }
+    .forum-item small {
+      color: #999;
+    }
+    #forum-get-coment {
+      color: #999;
+      margin: 1rem;
+      height: auto;
+      padding-left: 2rem;
+    }
+    #forum-send-coment {
+        color: #999;
+        margin: 1rem;
+        float: left;
+        width: 100%;
+        height: auto;
+        padding-left: 2.3rem;
+    }
+    #inputComentario{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .forum-title {
+      margin: 15px 0 15px 0;
+    }
+    .forum-icon {
+      float: left;
+      margin-left: 20px;
+      text-align: center;
+    }
+    .forum-icon .fa {
+      font-size: 22px;
+      margin-top: 8px;
+      margin-right: 10px;
+      color: #9b9b9b;
+    }
+    #tb_comentarios {
+        margin-right: 10px;
+        text-align: left;
+    }
+    
+    
+    .ibox {
+      clear: both;
+      margin-bottom: 25px;
+      margin-top: 0;
+      padding: 0;
+    }
+    .ibox-content {
+      background-color: #ffffff;
+      color: inherit;
+      padding: 15px 20px 20px 20px;
+      border-color: #e7eaec;
+      border-image: none;
+      border-style: solid solid none;
+      border-width: 1px 0;
+    }
+    .text-navy {
+        color: #1e1f1e;
+    }
+    .mid-icon {
+        float: left;
+        margin-right: 2rem;
+        font-size: 3.5rem !important;
+    }
+    .m-b-sm {
+        margin-bottom: 10px;
+    }
+
+
+
+
+    .accordion .card {
+        border: none;
+        margin-bottom: 2px;
+    }
+    .accordion .card-header {
+        background: #48D1CC;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    .accordion .card-header h2 {
+        color: #fff;
+        font-size: 1rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+    }
+    .accordion .card-header h2 span {
+        float: left;
+        margin-top: 10px;
+    }
+    .accordion .card-header button {
+        color: #fff;
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+        float: right;
+    }
+    .accordion .card-header button:hover {
+        color: #23384e;
+    }
+    .icono
+    {
+        margin-right: 2%;
+    }

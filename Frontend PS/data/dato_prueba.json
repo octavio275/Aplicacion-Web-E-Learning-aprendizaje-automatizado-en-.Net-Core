@@ -1,0 +1,207 @@
+[
+  {
+    "cursoId": 1,
+    "nombre": "Metodologias programacion",
+    "descripcion": "Curso de programacion",
+    "cantidad": 40,
+    "profesorId": 1,
+    "categoriaId": 1,
+    "clasesNavegacion": [
+      {
+        "descripcion": "Introduccion.",
+        "tema": "En este curso los alumnos aprenderan sobre los patrones de diseño y como implmentarlos a traves del estudio teorico y la practica",
+        "cursoId": 1,
+        "video": {
+          "descripcion": "\"video ejemplo\"",
+          "link": "link"
+        },
+        "foro": {
+          "foroId": 1,
+          "texto": "Este es el Foro de la clase metodologiasssssss consulteeen todo"
+        },
+        "cuestionario": {
+          "descripcion": "Cuestionario ejemplo",
+          "preguntas": [
+            {
+              "descripcion": "cuanto es 1 +1",
+              "respuestas": [
+                {
+                  "descripcion": "la respuesta es 2",
+                  "flag": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "descripcion": "Patron de diseño: Data transfers object: DTO.",
+        "tema": "Los DTO son utilizados para transferir datos tanto en capas como en red, son utilizados como objetos planos",
+        "cursoId": 1,
+        "video": {
+          "descripcion": "\"video ejemplo\"",
+          "link": "link"
+        },
+        "foro": {
+          "foroId": 2,
+          "texto": "este es foro de la clase de patron de diseño"
+        },
+        "cuestionario": {
+          "descripcion": "Cuestionario ejemplo",
+          "preguntas": [
+            {
+              "descripcion": "cuanto es 1 +1",
+              "respuestas": [
+                {
+                  "descripcion": "la respuesta es 2",
+                  "flag": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "descripcion": "Patron arquitectonico : 3 capas.",
+        "tema": "Este patron es utilizado para organizar la arquitectura de un software, ordenandolo por capas: de la siguiente manera, acceso a datos, capa de dominio, capa de servicios y por ultimo los controladores",
+        "cursoId": 1,
+        "video": {
+          "descripcion": "\"video ejemplo\"",
+          "link": "link"
+        },
+        "foro": {
+          "foroId": 3,
+          "texto": "este es el foro de la clase del patron arquitectonico"
+        },
+        "cuestionario": {
+          "descripcion": "Cuestionario ejemplo",
+          "preguntas": [
+            {
+              "descripcion": "cuanto es 1 +1",
+              "respuestas": [
+                {
+                  "descripcion": "la respuesta es 2",
+                  "flag": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "cursoId": 2,
+    "nombre": "Base de datos II",
+    "descripcion": "Curso de programacion",
+    "cantidad": 40,
+    "profesorId": 1,
+    "categoriaId": 1,
+    "clasesNavegacion": [
+      {
+        "descripcion": "Introduccion al DER",
+        "tema": "Los alumnos aprenderan sobre base de datos tanto en su implementacion como en su teoria",
+        "cursoId": 1,
+        "video": {
+          "descripcion": "\"video ejemplo\"",
+          "link": "link"
+        },
+        "foro": {
+          "texto": "hola como estas"
+        },
+        "cuestionario": {
+          "descripcion": "Cuestionario ejemplo",
+          "preguntas": [
+            {
+              "descripcion": "cuanto es 1 +1",
+              "respuestas": [
+                {
+                  "descripcion": "la respuesta es 2",
+                  "flag": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "descripcion": "Diseño logico de la DB",
+        "tema": "En la practica los alumnos aprenderan sobre el diseño logico que implica el pensamiento del DER",
+        "cursoId": 1,
+        "video": {
+          "descripcion": "\"video ejemplo\"",
+          "link": "link"
+        },
+        "foro": {
+          "texto": "hola como estas"
+        },
+        "cuestionario": {
+          "descripcion": "Cuestionario ejemplo",
+          "preguntas": [
+            {
+              "descripcion": "cuanto es 1 +1",
+              "respuestas": [
+                {
+                  "descripcion": "la respuesta es 2",
+                  "flag": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "descripcion": "Seguridad en las DB",
+        "tema": "En la practica los alumnos aprenderan como securizar una BD",
+        "cursoId": 1,
+        "video": {
+          "descripcion": "\"video ejemplo\"",
+          "link": "link"
+        },
+        "foro": {
+          "texto": "hola como estas"
+        },
+        "cuestionario": {
+          "descripcion": "Cuestionario ejemplo",
+          "preguntas": [
+            {
+              "descripcion": "cuanto es 1 +1",
+              "respuestas": [
+                {
+                  "descripcion": "la respuesta es 2",
+                  "flag": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "descripcion": "Base de datos no relacionales",
+        "tema": "Introduccion a la base de datos no relaciones. ejmplo: mongo db, casandra etc",
+        "cursoId": 1,
+        "video": {
+          "descripcion": "\"video ejemplo\"",
+          "link": "link"
+        },
+        "foro": {
+          "texto": "hola como estas"
+        },
+        "cuestionario": {
+          "descripcion": "Cuestionario ejemplo",
+          "preguntas": [
+            {
+              "descripcion": "cuanto es 1 +1",
+              "respuestas": [
+                {
+                  "descripcion": "la respuesta es 2",
+                  "flag": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+.carousel 
+{
+    padding: 3rem;
+}
+.carousel-inner img
+{
+    margin: 0 auto;
+}
+
+.carousel-caption
+{
+    background-color: rgba(70, 67, 39, 0.808);
+    color: rgb(239, 240, 219);
+    
+}
+.carousel-inner a
+{
+    color: rgb(239, 240, 219);
+}
+
+.carousel-inner a:hover
+{
+    color: rgb(228, 236, 60);
+    text-decoration: none !important;
+}
+
+.yb-gradient
+{
+    background: rgb(253,226,45);
+background: linear-gradient(0deg, rgba(226, 215, 147, 0.1) 0%, rgba(30, 180, 182, 0.1) 100%);
+}
